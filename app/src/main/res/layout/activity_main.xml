@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dfdfdf"
+    android:orientation="vertical">
+
+    <net.treelzebub.sweepingcircleprogressview.SweepingCircleProgressView
+        android:id="@+id/progress"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        app:autostart="true"
+        app:isIndeterminate="true"
+        app:maxProgress="100"
+        app:progress="0"
+        app:progressColor="#4f70e3"
+        app:stroke="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="toggle" />
+
+</LinearLayout>
