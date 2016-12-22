@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SweepingCircleProgressView">
+        <attr name="progressColor" format="color" />
+        <attr name="stroke" format="dimension" />
+        <attr name="progress" format="float" />
+        <attr name="maxProgress" format="float" />
+        <attr name="isIndeterminate" format="boolean" />
+        <attr name="autostart" format="boolean" />
+    </declare-styleable>
+</resources>
